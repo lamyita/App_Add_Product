@@ -92,7 +92,7 @@ public class ProduitDaoImpl implements IProduitDao {
 		
 		Connection connection=SingletonConnection.getMyConnexion();
 		try {
-			PreparedStatement ps=connection.prepareStatement("UPDATE PRODUITS  SET produits.DESIGNATION=?,produits.PRIX=?,produits.QUANTITE=? WHERE ID=?");
+			PreparedStatement ps=connection.prepareStatement("UPDATE PRODUITS  SET produits.DESIGNATION=?,produits.PRIX=?,produits.QUANTITE=? WHERE ID =?");
 		
 		ps.setString(1, p.getDesignation());
 		ps.setDouble(2, p.getPrix());
