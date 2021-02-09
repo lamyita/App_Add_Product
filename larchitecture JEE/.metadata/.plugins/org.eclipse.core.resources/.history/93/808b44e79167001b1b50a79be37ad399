@@ -1,0 +1,10 @@
+<div class="navbar navbar-default">
+<ul>
+<li><a href="index.do">Home</a></li>
+<li><a href="Saisie.do">Saisie</a></li>
+<li><a href="cherche.do">Cherche</a></li>
+
+</ul>
+
+
+</div>

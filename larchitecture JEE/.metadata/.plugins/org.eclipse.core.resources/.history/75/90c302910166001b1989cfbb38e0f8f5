@@ -1,0 +1,10 @@
+package dao;
+
+public class TestDao {
+
+	public static void main(String[] args) {
+		ProduitDaoImpl dao = new ProduitDaoImpl();
+		
+		
+	}
+}

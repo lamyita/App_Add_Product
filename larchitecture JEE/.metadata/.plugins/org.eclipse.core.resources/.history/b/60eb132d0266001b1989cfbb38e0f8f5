@@ -1,0 +1,15 @@
+package dao;
+
+import metier.entities.Produit;
+
+public class TestDao {
+
+	public static void main(String[] args) {
+		ProduitDaoImpl dao = new ProduitDaoImpl();
+		Produit p1=dao.save(new Produit("HP 2134", 34,46));
+		
+		
+		
+		
+	}
+}

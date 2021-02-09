@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Produits</title>
+<link rel="stylesheet" typr="text/css" href="css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="panel panel-primary">
+<div class="panel-heading"> Recherche des produits</div>
+<div class="panel-body">
+
+
+</div>
+
+</div>
+
+
+</body>
+</html>

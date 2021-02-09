@@ -1,0 +1,20 @@
+package web;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+
+import dao.IProduitDao;
+import dao.ProduitDaoImpl;
+
+public class ControleurServlet extends HttpServlet{
+	
+	private IProduitDao metier;
+	@Override
+	public void init() throws ServletException {
+		
+		metier=new ProduitDaoImpl();
+
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package metier.entities;
+
+import java.io.Serializable;
+
+public class Produit implements Serializable {
+	private Long id;
+	private String designation;
+	private double prix;
+	private int quantite;
+	
+
+}

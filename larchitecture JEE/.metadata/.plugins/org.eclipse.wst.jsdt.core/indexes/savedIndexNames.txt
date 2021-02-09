@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\Youcode\larchitecture JEE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2942924249.index
+2130169425.index
+2679867725.index
+1835893163.index
+2808558193.index
+2999131731.index
+1738255153.index
+2808558193.index

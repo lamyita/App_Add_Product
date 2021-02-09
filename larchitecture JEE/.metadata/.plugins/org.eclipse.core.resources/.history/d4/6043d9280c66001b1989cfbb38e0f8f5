@@ -1,0 +1,19 @@
+package dao;
+
+import metier.entities.Produit;
+
+public class TestDao {
+
+	public static void main(String[] args) {
+		ProduitDaoImpl dao = new ProduitDaoImpl();
+		Produit p1=dao.save(new Produit("HP 2134", 34,46));
+		Produit p2=dao.save(new Produit("test", 35, 45));
+		System.out.println(p1.toString());
+		System.out.println(p2.toString());
+		System.out.println("chercher des produits");
+		List<Produit> prods=dao.produitsParMC("%H%");
+		
+		
+		
+	}
+}
